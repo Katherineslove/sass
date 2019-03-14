@@ -1,0 +1,60 @@
+$mainColour: red;
+$borderSize:2px;
+$maxWidth: 1000;
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    color: $mainColour;
+}
+
+h4 {
+    border: $borderSize solid $mainColour;
+} 
+
+.button {
+    background-color: $mainColour;
+    color: complement($mainColour);
+    border-color: darken($mainColour, 30%)
+}
+
+$columns: 12;
+$columnWidth: 100% / $columns;
+@for $i from 1 through $columns{
+    
+    .col#{$i}{
+        width: $columnWidth * $i;
+    }
+}
+
+
+#headerNav{
+    background-color: $mainColour;
+    ul {
+        li {
+            color: white;
+        }
+    }
+    
+    p {
+        color: white;
+        width: 500px;
+    }
+}
+
+#footerNav {
+    ul{
+        li {
+            color: blue;
+        }
+    }
+    
+    p {
+        color: blue;
+        width: 500px;
+    }
+}
