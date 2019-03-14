@@ -1,6 +1,4 @@
-$mainColour: red;
-$borderSize:2px;
-$maxWidth: 1000;
+@import 'variables';
 
 *{
     box-sizing: border-box;
@@ -21,16 +19,6 @@ h4 {
     color: complement($mainColour);
     border-color: darken($mainColour, 30%)
 }
-
-$columns: 12;
-$columnWidth: 100% / $columns;
-@for $i from 1 through $columns{
-    
-    .col#{$i}{
-        width: $columnWidth * $i;
-    }
-}
-
 
 #headerNav{
     background-color: $mainColour;
@@ -58,3 +46,16 @@ $columnWidth: 100% / $columns;
         width: 500px;
     }
 }
+
+h1 {
+    @include colorLayout;
+}
+
+h5 {
+    @include colorLayout;
+}
+
+.button {
+    @include colorLayout;
+}
+

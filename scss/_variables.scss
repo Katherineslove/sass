@@ -1,0 +1,14 @@
+$mainColour: red;
+$borderSize:2px;
+$maxWidth: 1000;
+
+
+$columns: 12;
+$columnWidth: 100% / $columns;
+
+
+@mixin colorLayout {
+    color: red;
+    background-color: blue;
+    border: 10px solid green;
+}

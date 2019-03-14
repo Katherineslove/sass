@@ -14,42 +14,6 @@ h4 {
   color: cyan;
   border-color: #660000; }
 
-.col1 {
-  width: 8.3333333333%; }
-
-.col2 {
-  width: 16.6666666667%; }
-
-.col3 {
-  width: 25%; }
-
-.col4 {
-  width: 33.3333333333%; }
-
-.col5 {
-  width: 41.6666666667%; }
-
-.col6 {
-  width: 50%; }
-
-.col7 {
-  width: 58.3333333333%; }
-
-.col8 {
-  width: 66.6666666667%; }
-
-.col9 {
-  width: 75%; }
-
-.col10 {
-  width: 83.3333333333%; }
-
-.col11 {
-  width: 91.6666666667%; }
-
-.col12 {
-  width: 100%; }
-
 #headerNav {
   background-color: red; }
   #headerNav ul li {
@@ -63,5 +27,20 @@ h4 {
 #footerNav p {
   color: blue;
   width: 500px; }
+
+h1 {
+  color: red;
+  background-color: blue;
+  border: 10px solid green; }
+
+h5 {
+  color: red;
+  background-color: blue;
+  border: 10px solid green; }
+
+.button {
+  color: red;
+  background-color: blue;
+  border: 10px solid green; }
 
 /*# sourceMappingURL=style.css.map */
